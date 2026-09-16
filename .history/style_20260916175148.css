@@ -330,7 +330,7 @@ footer{
         max-width: 270px;
     }
 
-    
+    /* formulario */
     .agendar {
         flex-direction: column;
         gap: 30px;
@@ -385,7 +385,7 @@ footer{
         width: 80%;
     }
 
-   
+    /* rodape */
     footer {
         flex-direction: column;
         gap: 20px;

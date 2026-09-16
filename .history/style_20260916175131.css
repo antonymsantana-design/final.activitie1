@@ -293,7 +293,7 @@ footer{
         font-size: 16px;
     }
 
-   
+    /* inicio */
     .conteudo {
         height: 400px;
     }
@@ -309,7 +309,7 @@ footer{
         font-size: 14px;
     }
 
-    
+    /* serviços */
     .Our {
         font-size: 25px;
     }
@@ -330,7 +330,7 @@ footer{
         max-width: 270px;
     }
 
-    
+    /* formulario */
     .agendar {
         flex-direction: column;
         gap: 30px;
@@ -385,7 +385,7 @@ footer{
         width: 80%;
     }
 
-   
+    /* rodape */
     footer {
         flex-direction: column;
         gap: 20px;
