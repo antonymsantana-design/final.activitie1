@@ -1,0 +1,226 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #0B0B0B;
+    height: 130px;
+}
+
+small {
+    padding-bottom: 5px;
+}
+
+.conteudoH {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    align-items: center;
+}
+
+.imagem {
+    margin-left: 20px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.logoIMG {
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+}
+
+.logoH {
+    color: white;
+
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-right: 130px;
+    font-size: 18px;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s ease;
+}
+
+.aLinks:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    background-color: #F0C56A;
+    color: #F5F5F5;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnDiv {
+    display: flex;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    width: 140px;
+    height: 50px;
+    background-color: #22C55E;
+    border: none;
+    color: white;
+    align-items: center;
+    border-radius: 8px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+}
+
+.direitaH {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo {
+    background-image: url(image/Gemini_Generated_Image_hbetqjhbetqjhbet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    color: white;
+}
+
+.texto {
+    padding-left: 80px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    background: linear-gradient(to right, #0B0B0B, #15151531);
+
+}
+
+.card {
+    background-color: #FDEEC7;
+    width: 270px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card h4 {
+    color: #22C55E;
+}
+
+.icone {
+    width: 120px;
+    height: 120px;
+    padding-bottom: 10px;
+}
+
+.Our {
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+hr {
+    color: #22C55E;
+    text-align: center;
+    margin-left: 920px;
+    margin-right: 920px;
+}
+
+.agendar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form{
+    background-color: rgba(201, 238, 227, 0.568);
+    width: 600px;
+    border-radius: 5px;
+}
+.quadrado{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 200px);
+    gap: 30px;
+    column-gap: 70px;
+    margin-right: 50px;
+}
+
+.esq {
+    font-size: 25px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0B0B0B;
+    color: white;
+}
+
+.formu{
+    width: 240px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.forms{
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.agendarbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    background-color: #22C55E;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.agendarbtn:hover {
+    transform: translateY(-5px);
+}
